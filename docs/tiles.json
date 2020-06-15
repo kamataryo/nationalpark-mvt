@@ -9,7 +9,7 @@
   "center": "134.846191,35.657294,13",
   "format": "pbf",
   "name": "nps",
-  "attribution": "<a href=\"http://gis.biodic.go.jp/webgis/sc-026.html?kind=nps\">国立公園区域等GISデータ</a>(<a href=\"http://www.biodic.go.jp/\">環境省生物多様性センター</a>)を使用し <a href=\"https://github.com/kamataryo\">@kamataryo</a> が作成",
+  "attribution": "<a href=\"http://gis.biodic.go.jp/webgis/sc-026.html?kind=nps\">国立公園区域等GISデータ</a>(<a href=\"http://www.biodic.go.jp/\">環境省生物多様性センター</a>)を使用し <a href=\"https://github.com/kamataryo/nationalpark-mvt\">@kamataryo</a> が作成",
   "minzoom": 0,
   "maxzoom": 13,
   "id": "nps",
