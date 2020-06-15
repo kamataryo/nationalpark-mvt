@@ -20,7 +20,21 @@
     <script src="https://api.geolonia.com/dev/embed?geolonia-api-key=YOUR-API-KEY"></script>
     <script>
       const map = new window.geolonia.Map("#map");
-      map.addSource();
+      map.on("load", () => {
+        map.addSource("nps", {
+          type: "vector",
+          url: "https://kamataryo.github.io/nationalpark-mvt/tiles.json",
+        });
+        map.addLayer({
+          id: "nps",
+          type: "fill",
+          source: "nps",
+          "source-layer": "nps",
+          //   paint: {
+          //     "fill-color": "#0f0fff",
+          //   },
+        });
+      });
     </script>
   </body>
 </html>

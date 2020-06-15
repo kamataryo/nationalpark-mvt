@@ -1,0 +1,10 @@
+{
+  "format": "pbf",
+  "name": "nps",
+  "attribution": "生物多様性センター",
+  "minzoom": 0,
+  "maxzoom": 13,
+  "id": "nps",
+  "tilejson": "2.0.0",
+  "tiles": ["https://kamataryo.github.io/nationalpark-mvt/{z}/{x}/{y}.mvt"]
+}
