@@ -1,4 +1,12 @@
 {
+  "generator": "tippecanoe v1.34.3",
+  "generator_options": "tippecanoe -o ./data/nps.mbtiles -zg --drop-densest-as-needed --no-tile-compression ./data/nps.geojson",
+  "description": "./data/nps.mbtiles",
+  "json": "{\"vector_layers\": [ { \"id\": \"nps\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 13, \"fields\": {\"\u540d\u79f0\": \"String\", \"\u5730\u57df\u533a\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"nps\",\"count\": 8997,\"geometry\": \"Polygon\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"\u540d\u79f0\",\"count\": 34,\"type\": \"string\",\"values\": [\"\u3084\u3093\u3070\u308b\",\"\u4e09\u9678\u5fa9\u8208\",\"\u4e0a\u4fe1\u8d8a\u9ad8\u539f\",\"\u4e2d\u90e8\u5c71\u5cb3\",\"\u4f0a\u52e2\u5fd7\u6469\",\"\u5229\u5c3b\u4f8b\u6587\u30b5\u30ed\u30d9\u30c4\",\"\u5341\u548c\u7530\u516b\u5e61\u5e73\",\"\u5357\u30a2\u30eb\u30d7\u30b9\",\"\u5409\u91ce\u718a\u91ce\",\"\u5927\u5c71\u96a0\u5c90\",\"\u5927\u96ea\u5c71\",\"\u5944\u7f8e\u7fa4\u5cf6\",\"\u5999\u9ad8\u6238\u96a0\u9023\u5c71\",\"\u5bcc\u58eb\u7bb1\u6839\u4f0a\u8c46\",\"\u5c0f\u7b20\u539f\",\"\u5c3e\u702c\",\"\u5c4b\u4e45\u5cf6\",\"\u5c71\u9670\u6d77\u5cb8\",\"\u6176\u826f\u9593\u8af8\u5cf6\",\"\u652f\u7b0f\u6d1e\u723a\",\"\u65e5\u5149\",\"\u702c\u6238\u5185\u6d77\",\"\u767d\u5c71\",\"\u77e5\u5e8a\",\"\u78d0\u68af\u671d\u65e5\",\"\u79e9\u7236\u591a\u6469\u7532\u6590\",\"\u897f\u6d77\",\"\u897f\u8868\u77f3\u57a3\",\"\u8db3\u647a\u5b87\u548c\u6d77\",\"\u91e7\u8def\u6e7f\u539f\",\"\u963f\u5bd2\u6469\u5468\",\"\u963f\u8607\u304f\u3058\u3085\u3046\",\"\u96f2\u4ed9\u5929\u8349\",\"\u9727\u5cf6\u9326\u6c5f\u6e7e\"]},{\"attribute\": \"\u5730\u57df\u533a\",\"count\": 7,\"type\": \"string\",\"values\": [\"\u533a\u5206\u672a\u5b9a\",\"\u666e\u901a\u5730\u57df\",\"\u6d77\u57df\u516c\u5712\u5730\u533a\",\"\u7279\u5225\u4fdd\u8b77\u5730\u533a\",\"\u7b2c1\u7a2e\u7279\u5225\u5730\u57df\",\"\u7b2c2\u7a2e\u7279\u5225\u5730\u57df\",\"\u7b2c3\u7a2e\u7279\u5225\u5730\u57df\"]}]}]}}",
+  "bounds": "123.545282,24.027582,145.397913,45.489423",
+  "version": "2",
+  "type": "overlay",
+  "center": "134.846191,35.657294,13",
   "format": "pbf",
   "name": "nps",
   "attribution": "生物多様性センター",
