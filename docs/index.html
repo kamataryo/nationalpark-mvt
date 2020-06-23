@@ -26,6 +26,17 @@
           url: "https://kamataryo.github.io/nationalpark-mvt/tiles.json",
         });
         map.addLayer({
+          id: "contour",
+          type: "line",
+          source: "nps",
+          "source-layer": "nps",
+          paint: {
+            "line-color": "gray",
+            "line-opacity": 0.4,
+          },
+        });
+
+        map.addLayer({
           id: "普通地域",
           type: "fill",
           source: "nps",
