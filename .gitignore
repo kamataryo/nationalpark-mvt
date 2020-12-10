@@ -1,6 +1,6 @@
 data/*
 !data/.gigkeep
-docs/main.js
+dist/main.js
 
 ### https://raw.github.com/github/gitignore/68ae2ff9f7ce0176696966539b9807525002893b/Node.gitignore
 

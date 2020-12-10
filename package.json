@@ -10,6 +10,6 @@
   "author": "kamataryo <kamataryo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack -o docs"
   }
 }
